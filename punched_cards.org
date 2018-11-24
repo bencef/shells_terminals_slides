@@ -1,0 +1,8 @@
+#+OPTIONS: num:nil toc:nil ^:nil
+#+TITLE: Shells, Terminals and the future that never was
+#+AUTHOR: Bence Fabián <bence.fabian@codecool.com>
+
+* Punched Cards
+  Punched cards were first used for looms.
+
+  Used in early computers to enter text.

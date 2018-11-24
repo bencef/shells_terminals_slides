@@ -1,0 +1,3 @@
+* Shells, Terminals and the future that never was
+  An overview of ways to interact with computers with focus on
+  terminal emulators and unix shells.
