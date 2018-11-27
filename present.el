@@ -23,9 +23,9 @@
 
 (demo-it-create :shell :windows-on-right
                 (demo-it-title-screen "title.org")
-                (demo-it-presentation "punched_cards.org")
+                (demo-it-presentation "slides.org")
                 (demo-it-show-image "jacquard1.jpg")
                 (shells-demo/youtube "https://www.youtube.com/watch?v=YnnGbcM-H8c")
-                (demo-it-presentation "teletypes.org"))
+                (demo-it-presentation-advance))
 
 (demo-it-start)
