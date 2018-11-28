@@ -67,6 +67,11 @@
                 demo-it-presentation-advance
                 (demo-it-insert-shell "wc -l < present.el")
                 demo-it-presentation-advance
-                (demo-it-insert-shell "export PS1='→ '"))
+                (demo-it-insert-shell "export PS1='→ '")
+                demo-it-presentation-advance
+                (demo-it-insert-shell "for i in 1 2 3")
+                (demo-it-insert-shell "do")
+                (demo-it-insert-shell "  echo number $i")
+                (demo-it-insert-shell "done"))
 
 (demo-it-start)

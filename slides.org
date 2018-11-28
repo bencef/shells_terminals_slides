@@ -77,3 +77,5 @@
   We can customize our environment.
 
   Let's redefine our prompt!
+* Shells
+  We can even write loops.
