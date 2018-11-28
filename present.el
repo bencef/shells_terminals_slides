@@ -43,6 +43,14 @@
                 (demo-it-insert-shell "    print(\"wooohoo\")")
                 demo-it-presentation-advance
                 (demo-it-insert-shell ".")
+                demo-it-presentation-advance
+                (demo-it-insert-shell "1,$s/i/arg/g")
+                demo-it-presentation-advance
+                (demo-it-insert-shell "1,$p")
+                demo-it-presentation-advance
+                (demo-it-insert-shell "u")
+                (demo-it-insert-shell "1,$s/\\([^a-z]\\)i\\([^a-z]\\)/\\1arg\\2/g")
+                (demo-it-insert-shell "1,$p")
                 demo-it-presentation-advance)
 
 (demo-it-start)

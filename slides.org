@@ -33,3 +33,15 @@
   With a single dot.
 
   (good luck if you want to *insert* a single dot on a line)
+* Teletypes
+  Say we want to refactor =i= into something more meaningful.
+* Teletypes
+  And now print it.
+* Teletypes
+  Oh /noooooo/!
+
+  We messed up.
+
+  Let's undo and retry with a better matcher.
+* Teletypes
+  So easy...
