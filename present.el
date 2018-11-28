@@ -21,6 +21,10 @@
 ;; ----------------------------------------------------------------------
 ;; demonstration structure
 
+;; kill leftover Shell window
+(ignore-errors
+  (kill-buffer "Shell"))
+
 (demo-it-create :shell :insert-fast :windows-on-right
                 (demo-it-title-screen "title.org")
                 (demo-it-presentation "slides.org")
