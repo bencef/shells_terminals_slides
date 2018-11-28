@@ -45,3 +45,9 @@
   Let's undo and retry with a better matcher.
 * Teletypes
   So easy...
+
+  Let's save and never come back.
+
+  _NOTE_: ed was *much* better than its contemporaries and still has
+  some uses today.  For example in shell scripts because it consumes
+  commands as a text stream.

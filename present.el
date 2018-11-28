@@ -23,7 +23,8 @@
 
 ;; kill leftover Shell window
 (ignore-errors
-  (kill-buffer "Shell"))
+  (kill-buffer "Shell")
+  (shell-command "rm /tmp/new_file"))
 
 (demo-it-create :shell :insert-fast :windows-on-right
                 (demo-it-title-screen "title.org")
@@ -51,6 +52,8 @@
                 (demo-it-insert-shell "u")
                 (demo-it-insert-shell "1,$s/\\([^a-z]\\)i\\([^a-z]\\)/\\1arg\\2/g")
                 (demo-it-insert-shell "1,$p")
-                demo-it-presentation-advance)
+                demo-it-presentation-advance
+                (demo-it-insert-shell "w")
+                (demo-it-insert-shell "q"))
 
 (demo-it-start)
