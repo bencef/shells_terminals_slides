@@ -6,10 +6,18 @@
   Punched cards were first used for looms.
 
   Used in early computers to enter text.
+* Punched Cards
+  That was one line:
 
+  - Every column a character
+  - Every row a bit
+
+  And this is why still to this day lines are 80 columns long.
 * Teletypes
   Machines using paper feed.
 
   Editing was line by line.
 
   The origin of the name =/dev/tty=.
+* Teletypes
+  Let's see how editing looked like back then.
