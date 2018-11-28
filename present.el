@@ -63,6 +63,10 @@
                 demo-it-presentation-advance
                 demo-it-show-shell
                 (demo-it-insert-shell "ls -l")
-                (demo-it-insert-shell "ls -a"))
+                (demo-it-insert-shell "ls -a")
+                demo-it-presentation-advance
+                (demo-it-insert-shell "wc -l < present.el")
+                demo-it-presentation-advance
+                (demo-it-insert-shell "export PS1='→ '"))
 
 (demo-it-start)

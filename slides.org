@@ -71,3 +71,9 @@
   - Interacting with the OS (for example handling files)
 * Shells
   Programs can be started with different arguments
+* Shells
+  Programs can interact with files
+* Shells
+  We can customize our environment.
+
+  Let's redefine our prompt!
