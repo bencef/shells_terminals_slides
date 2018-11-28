@@ -30,18 +30,19 @@
                 (demo-it-presentation "slides.org")
                 (demo-it-show-image "jacquard1.jpg")
                 (shells-demo/youtube "https://www.youtube.com/watch?v=YnnGbcM-H8c")
-                (demo-it-presentation-advance)
-                (demo-it-presentation-advance)
-                (demo-it-start-shell)
+                demo-it-presentation-advance
+                demo-it-presentation-advance
+                demo-it-start-shell
                 "C-u C-x o"
                 (demo-it-insert-shell "ed /tmp/new_file")
-                (demo-it-presentation-advance)
+                demo-it-presentation-advance
                 (demo-it-insert-shell "a")
-                (demo-it-presentation-advance)
+                demo-it-presentation-advance
                 (demo-it-insert-shell "def foo(i):")
                 (demo-it-insert-shell "  if i > 3:")
                 (demo-it-insert-shell "    print(\"wooohoo\")")
-                (demo-it-presentation-advance)
-                (demo-it-insert-shell "."))
+                demo-it-presentation-advance
+                (demo-it-insert-shell ".")
+                demo-it-presentation-advance)
 
 (demo-it-start)
