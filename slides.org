@@ -21,3 +21,9 @@
   The origin of the name =/dev/tty=.
 * Teletypes
   Let's see how editing looked like back then.
+* Teletypes
+  Oldschool ed only wrote a question mark in this case...
+
+  Let's enter append mode.
+* Teletypes
+  Now we can enter our program
