@@ -58,6 +58,11 @@
                 demo-it-presentation-return
                 (demo-it-show-image "vt100.jpg")
                 demo-it-presentation-return
-                demo-it-presentation-advance)
+                demo-it-presentation-advance
+                demo-it-presentation-advance
+                demo-it-presentation-advance
+                demo-it-show-shell
+                (demo-it-insert-shell "ls -l")
+                (demo-it-insert-shell "ls -a"))
 
 (demo-it-start)

@@ -65,3 +65,9 @@
   The little purple/black windows are emulating these machines.
 * Shells
   Let's talk about shells finally
+* Shells
+  Shells are for
+  - Starting programs
+  - Interacting with the OS (for example handling files)
+* Shells
+  Programs can be started with different arguments
