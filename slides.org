@@ -79,3 +79,41 @@
   Let's redefine our prompt!
 * Shells
   We can even write loops.
+* Shells
+  The biggest breakthrough came with *pipes*
+
+  Different tools can be combined.
+* Shell Example
+  Let's count word frequencies in this folder.
+* Shell Example
+  Gather all text files.
+* Shell Example
+  Concatenate them and split them into words.
+
+  - tr :: Translate
+  - -c :: Complement
+  - '\n' :: New line
+* Shell Example
+  - Collapse unique ones
+  - Count them
+  - Sort according to numbers
+* Shell Example
+  Notice how I didn't need to retype the last command.
+
+  Now we are all set and we want to do this next time as well.
+
+  We can look back on what we just did.
+* Shell Example
+  We can just copy the relevant lines in a file.
+
+  We also need to add an interpreter
+  #+BEGIN_EXAMPLE
+    #!/bin/sh
+  #+END_EXAMPLE
+
+  And make the file runnable.
+  #+BEGIN_EXAMPLE
+    chmod +x filename
+  #+END_EXAMPLE
+* The future
+  TODO

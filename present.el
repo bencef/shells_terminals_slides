@@ -72,6 +72,22 @@
                 (demo-it-insert-shell "for i in 1 2 3")
                 (demo-it-insert-shell "do")
                 (demo-it-insert-shell "  echo number $i")
-                (demo-it-insert-shell "done"))
+                (demo-it-insert-shell "done")
+                demo-it-presentation-advance
+                demo-it-presentation-advance
+                demo-it-presentation-advance
+                (demo-it-insert-shell "export TEXT_FILES=$(file * | grep -E 'ASCII|UTF' | cut -d: -f1)")
+                (demo-it-insert-shell "echo $TEXT_FILES")
+                demo-it-presentation-advance
+                (demo-it-insert "cat $TEXT_FILES | tr -c a-zA-Z '\\n' | sort")
+                (demo-it-insert-shell "")
+                demo-it-presentation-advance
+                (demo-it-insert "!! | uniq -c | sort -n")
+                (demo-it-insert-shell "")
+                demo-it-presentation-advance
+                (demo-it-insert-shell "history | tail")
+                demo-it-presentation-return
+                (demo-it-load-file "word_freq.sh")
+                demo-it-presentation-return)
 
 (demo-it-start)
