@@ -51,3 +51,15 @@
   _NOTE_: ed was *much* better than its contemporaries and still has
   some uses today.  For example in shell scripts because it consumes
   commands as a text stream.
+* Terminals
+  Finally terminals came.
+
+  Still 80 characters but now on 25 lines.
+
+  And the cursor can be moved around.
+* Terminals
+  This is the present (the 1970s)
+
+  Everything after this is the future.
+* Shells
+  Let's talk about shells finally

@@ -54,6 +54,9 @@
                 (demo-it-insert-shell "1,$p")
                 demo-it-presentation-advance
                 (demo-it-insert-shell "w")
-                (demo-it-insert-shell "q"))
+                (demo-it-insert-shell "q")
+                demo-it-presentation-return
+                demo-it-presentation-advance
+                demo-it-presentation-advance)
 
 (demo-it-start)
