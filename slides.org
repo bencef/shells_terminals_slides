@@ -27,3 +27,9 @@
   Let's enter append mode.
 * Teletypes
   Now we can enter our program
+* Teletypes
+  Let's exit append mode.
+
+  With a single dot.
+
+  (good luck if you want to *insert* a single dot on a line)

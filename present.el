@@ -40,6 +40,8 @@
                 (demo-it-presentation-advance)
                 (demo-it-insert-shell "def foo(i):")
                 (demo-it-insert-shell "  if i > 3:")
-                (demo-it-insert-shell "    print(\"wooohoo\")"))
+                (demo-it-insert-shell "    print(\"wooohoo\")")
+                (demo-it-presentation-advance)
+                (demo-it-insert-shell "."))
 
 (demo-it-start)
