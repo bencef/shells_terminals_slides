@@ -56,7 +56,8 @@
                 (demo-it-insert-shell "w")
                 (demo-it-insert-shell "q")
                 demo-it-presentation-return
-                demo-it-presentation-advance
+                (demo-it-show-image "vt100.jpg")
+                demo-it-presentation-return
                 demo-it-presentation-advance)
 
 (demo-it-start)

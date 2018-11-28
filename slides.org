@@ -61,5 +61,7 @@
   This is the present (the 1970s)
 
   Everything after this is the future.
+
+  The little purple/black windows are emulating these machines.
 * Shells
   Let's talk about shells finally
