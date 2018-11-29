@@ -1,0 +1,7 @@
+! map left key to q
+keycode 113 =
+keycode 113 = q
+
+! map right key to space
+keycode 114 =
+keycode 114 = space

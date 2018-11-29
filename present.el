@@ -24,7 +24,8 @@
 ;; kill leftover Shell window
 (ignore-errors
   (kill-buffer "Shell")
-  (shell-command "rm /tmp/new_file"))
+  (shell-command "rm /tmp/new_file")
+  (shell-command "xmodmap xmodmap"))
 
 (demo-it-create :shell :insert-fast :windows-on-right
                 (demo-it-title-screen "title.org")
