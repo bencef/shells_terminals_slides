@@ -116,4 +116,32 @@
     chmod +x filename
   #+END_EXAMPLE
 * The future
-  TODO
+  OK, what should I check to see what does the future of the 1980s hold?
+** For terminals
+   Editable text windows.
+
+   Get an editor that can run a process in its buffers (emacs, acme,
+   neovim, etc.)
+
+   Idea, VS code, etc. totally miss the point by emulating terminals.
+   (they are still great software, they just miss out on some great
+   features)
+** For shells
+   Check out *dgsh*, the Directed Graph Shell.
+
+   It lets you build pipelines as graphs:
+
+   - branches
+   - aggregates
+
+   It is friggin' awesome!
+** The bigger picture
+   Live System images:
+
+   Persistent homogene systems programmed from the iside.
+
+   - Lisp machines :: Closest you can get nowadays is checking out
+                      emacs. (This whole presentation is inside GNU
+                      emacs)
+   - Smalltalk :: A modern implementation is Pharo.
+                  Let's see it.

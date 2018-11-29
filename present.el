@@ -89,6 +89,10 @@
                 (demo-it-insert-shell "history | tail")
                 demo-it-presentation-return
                 (demo-it-load-file "word_freq.sh")
-                demo-it-presentation-return)
+                demo-it-presentation-return
+                demo-it-presentation-advance
+                demo-it-presentation-advance
+                demo-it-presentation-advance
+                (shell-command "pharo_demo"))
 
 (demo-it-start)
