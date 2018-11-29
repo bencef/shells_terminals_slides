@@ -1,0 +1,9 @@
+#+TITLE: Shells, Terminals and the future that never was
+
+A presentation I gave at Codecool.
+
+* TODO Dockerfile
+  Needs to be added.
+
+  Until then [[file:slides.org]] and [[file:present.el]] can be followed
+  along.
