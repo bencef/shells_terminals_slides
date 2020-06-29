@@ -138,7 +138,7 @@
 ** The bigger picture
    Live System images:
 
-   Persistent homogene systems programmed from the iside.
+   Persistent homogene systems programmed from the inside.
 
    - Lisp machines :: Closest you can get nowadays is checking out
                       emacs. (This whole presentation is inside GNU
